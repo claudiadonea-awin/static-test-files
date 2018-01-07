@@ -6,6 +6,11 @@
   <script src="bin/app.bundle.js"></script>
 </head>
 <body>
+  <script>
+    var event = new Event('build');
+    // Dispatch the event.
+    elem.dispatchEvent(event);
+  </script>
   <div ui-view></div>
 </body>
 </html>
