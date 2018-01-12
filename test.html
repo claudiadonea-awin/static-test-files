@@ -8,12 +8,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <script> 
-    var root = document.querySelector('app-root');
+    var root = document.querySelector('#my-root');
     console.log('root', root);
   </script>
 </head>
 <body>
-  <app-root></app-root>
+  <div class="my-root"></div>
   <script>
         let customEvent = new Event('open');
         document.body.dispatchEvent(customEvent);
